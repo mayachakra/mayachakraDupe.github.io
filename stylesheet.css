@@ -103,6 +103,7 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
     
   }
   h1{
@@ -177,3 +178,13 @@ body{
     left:100px;
   }
 
+.carousel{
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  
+}
+.carousel-inner > .item > img {
+  width:250px;
+  height:200px;
+}
